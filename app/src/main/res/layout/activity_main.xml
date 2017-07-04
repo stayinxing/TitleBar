@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.star.titlebar.MainActivity">
+
+
+    <com.star.titlebar.CustomTitleBar
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="true"
+        app:leftTextColor="@android:color/white"
+        app:leftTextSize="15sp"
+        app:leftTitle="返回"
+        app:middleTextColor="@color/colorAccent"
+        app:middleTextSize="20sp"
+        app:middleTitle="样式一"
+        app:rightTextColor="@android:color/white"
+        app:rightTitle="确定" />
+
+
+    <com.star.titlebar.CustomTitleBar
+        android:id="@+id/titleBar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:leftImage="@mipmap/tbar_return_white"
+        app:leftTextColor="@android:color/white"
+        app:middleTextColor="@color/colorAccent"
+        app:middleTextSize="20sp"
+        app:middleTitle="样式二"
+        app:rightImage="@mipmap/home_video_complete" />
+
+
+    <com.star.titlebar.CustomTitleBar
+        android:id="@+id/titleBar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:clipToPadding="true"
+        app:leftImage="@mipmap/tbar_return_white"
+        app:leftTextColor="@android:color/white"
+        app:leftTextSize="15sp"
+        app:leftTitle="返回"
+        app:middleTextColor="@color/colorAccent"
+        app:middleTextSize="20sp"
+        app:middleTitle="样式三"
+        app:rightImage="@mipmap/home_video_complete"
+        app:rightTextColor="@android:color/white"
+        app:rightTitle="确定" />
+
+    <com.star.titlebar.CustomTitleBar
+        android:id="@+id/titleBar4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:clipToPadding="true"
+        app:leftImage="@mipmap/tbar_return_white"
+        app:leftTextColor="@android:color/white"
+        app:leftTextSize="15sp"
+        app:leftTitle="返回"
+        app:middleTextColor="@color/colorAccent"
+        app:middleTextSize="20sp"
+        app:middleTitle="样式四"
+        app:rightImage="@mipmap/home_video_complete"
+        app:rightImage2="@mipmap/resume_rerecording"
+        app:rightTextColor="@android:color/white" />
+</LinearLayout>
